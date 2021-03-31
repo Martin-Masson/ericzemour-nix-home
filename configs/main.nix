@@ -15,8 +15,8 @@
     command-not-found.enable = true;
     git = {
       enable = true;
-      userName = "Thomas Marchand";
-      userEmail = "thomas.marchand" + "@" + "tuta.io";
+      userName = "Martin Masson";
+      userEmail = "martinmasson03" + "@" + "tuta.io";
     };
 
     zsh = {
