@@ -16,7 +16,7 @@
     git = {
       enable = true;
       userName = "Martin Masson";
-      userEmail = "martinmasson03" + "@" + "tuta.io";
+      userEmail = "martinmasson03" + "@" + "gmail.com";
     };
 
     zsh = {
