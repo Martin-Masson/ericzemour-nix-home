@@ -6,7 +6,7 @@
     package = pkgs.i3-gaps;
 
     config = rec {
-      modifier = "Mod4";
+      modifier = "Mod1";
       bars = [ ];
 
       window.border = 0;
