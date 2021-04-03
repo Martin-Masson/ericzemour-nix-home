@@ -221,7 +221,8 @@ in {
 
         format = "<label>";
         format-padding = 4;
-        format-foreground = fg;
+        format-foreground = quinternary;
+        format-background = tertiary;
 
         label = "%time%";
       };

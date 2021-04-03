@@ -98,6 +98,7 @@
         fontFamily =
           "'JetbrainsMono Nerd Font', 'monospace', monospace, 'Droid Sans Fallback'";
         fontLigatures = true;
+        editor.formatOnSave = true;
       };
 
       workbench = {
