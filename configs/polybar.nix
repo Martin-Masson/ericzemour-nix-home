@@ -68,7 +68,7 @@ in {
 
         modules-left = "distro-icon dulS ddrT i3 dulT";
         modules-center = "title";
-        modules-right = "durT audio ddlT date";
+        modules-right = "durT audio ddlT durT date";
 
         locale = "en_US.UTF-8";
       };
