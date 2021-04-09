@@ -28,6 +28,7 @@ let
       pandas
       seaborn
       sklearn-deap
+      distro
       #pytorch
       cython
       #(callPackage ./pylibs/qgrid.nix { })
