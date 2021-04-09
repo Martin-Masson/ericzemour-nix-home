@@ -52,7 +52,7 @@ in {
         fixed-center = true;
 
         width = "100%";
-        height = 19;
+        height = "30";
         offset-x = "1%";
 
         scroll-up = "i3wm-wsnext";
@@ -63,12 +63,12 @@ in {
 
         radius = 0;
 
-        font-0 = "FuraCode Nerd Font:size=12;3";
-        font-1 = "FuraCode Nerd Font:style=Bold:size=12;3";
+        font-0 = "FuraCode Nerd Font:size=14;3";
+        font-1 = "FuraCode Nerd Font:style=Bold:size=14;3";
 
         modules-left = "distro-icon dulS ddrT i3 dulT";
         modules-center = "title";
-        modules-right = "durT audio ddlT durT date";
+        modules-right = "durT audio ddlT durP date";
 
         locale = "en_US.UTF-8";
       };
@@ -78,7 +78,7 @@ in {
         fixed-center = true;
 
         width = "100%";
-        height = 19;
+        height = 30;
 
         offset-x = "1%";
 
@@ -97,8 +97,8 @@ in {
         tray-scale = 1;
         padding = 0;
 
-        font-0 = "FuraCode Nerd Font:size=12;3";
-        font-1 = "FuraCode Nerd Font:style=Bold:size=12;3";
+        font-0 = "FuraCode Nerd Font:size=14;3";
+        font-1 = "FuraCode Nerd Font:style=Bold:size=14;3";
 
         modules-left = "powermenu ddlS";
 
@@ -222,7 +222,7 @@ in {
         format = "<label>";
         format-padding = 4;
         format-foreground = quinternary;
-        format-background = tertiary;
+        format-background = primary;
 
         label = "%time%";
       };
