@@ -52,8 +52,7 @@ in {
         fixed-center = true;
 
         width = "100%";
-        height = "30";
-        offset-x = "1%";
+        height = "38";
 
         scroll-up = "i3wm-wsnext";
         scroll-down = "i3wm-wsprev";
@@ -63,8 +62,8 @@ in {
 
         radius = 0;
 
-        font-0 = "FuraCode Nerd Font:size=14;3";
-        font-1 = "FuraCode Nerd Font:style=Bold:size=14;3";
+        font-0 = "FuraCode Nerd Font:size=16;4";
+        font-1 = "FuraCode Nerd Font:style=Bold:size=16;4";
 
         modules-left = "distro-icon dulS ddrT i3 dulT";
         modules-center = "title";
@@ -78,9 +77,9 @@ in {
         fixed-center = true;
 
         width = "100%";
-        height = 30;
+        height = 38;
 
-        offset-x = "1%";
+        offset-x = "20";
 
         background = bg;
         foreground = fg;
@@ -91,14 +90,14 @@ in {
         tray-detached = false;
         tray-maxsize = 15;
         tray-background = primary;
-        tray-offset-x = -19;
+        tray-offset-x = -20;
         tray-offset-y = 0;
         tray-padding = 5;
         tray-scale = 1;
         padding = 0;
 
-        font-0 = "FuraCode Nerd Font:size=14;3";
-        font-1 = "FuraCode Nerd Font:style=Bold:size=14;3";
+        font-0 = "FuraCode Nerd Font:size=16;4";
+        font-1 = "FuraCode Nerd Font:style=Bold:size=16;4";
 
         modules-left = "powermenu ddlS";
 
@@ -361,11 +360,6 @@ in {
         menu-0-2 = " Shutdown";
         menu-0-2-exec = "systemctl poweroff";
       };
-
-      #"module/wireless-network" = {
-      #  type = "internal/network";
-      #  interval = "wlp2s0";
-      #};
 
       #--------------------SOLID TRANSITIONS--------------------#
 
