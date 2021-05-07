@@ -24,11 +24,13 @@ let
       matplotlib
       pyjwt
       # school
+      ipython
+      librosa
       ipykernel
       pandas
       seaborn
       sklearn-deap
-      distro
+      jinja2
       #pytorch
       cython
       #(callPackage ./pylibs/qgrid.nix { })
@@ -45,6 +47,7 @@ in {
     tmate
 
     # TERMINAL
+    any-nix-shell
     gotop
     htop
     neofetch
@@ -60,6 +63,7 @@ in {
     imagemagick
     feh
     httpie
+
     # DEVELOPMENT
     idea.idea-ultimate
     postman
@@ -74,17 +78,26 @@ in {
     gnumake
     binutils
     gdb
-    (callPackage ./termius.nix { })
     rustup
+    ffmpeg # librosa
+
+    # SYSADMIN
+    tigervnc
+    (callPackage ./termius.nix { })
+
     # BLOCKCHAIN
     (callPackage ./crypto-org-wallet.nix { })
     (callPackage ./ledgerlive.nix { })
+    monero-gui
+
     # OFFICE
     texlive.combined.scheme-medium
+    typora
     wpsoffice
     brave
     libreoffice-fresh
     pavucontrol
+
     # DEFAULT
     kotatogram-desktop
     discord
@@ -94,10 +107,9 @@ in {
     blueman
     wineWowPackages.stable
     obs-studio
+
     # GAMES
-    bastet
     multimc
-    tigervnc
     flashplayer-standalone
   ];
 
