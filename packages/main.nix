@@ -59,6 +59,7 @@ in {
     escrotum
     tree
     gnupg
+    pinentry
     aria2
     imagemagick
     feh
@@ -83,7 +84,6 @@ in {
 
     # SYSADMIN
     tigervnc
-    (callPackage ./termius.nix { })
 
     # BLOCKCHAIN
     (callPackage ./crypto-org-wallet.nix { })

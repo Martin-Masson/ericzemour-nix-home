@@ -6,8 +6,7 @@ let
   name = "${pname}-${version}";
 
   src = fetchurl {
-    url =
-      "https://github.com/crypto-com/${pname}/releases/download/v${version}/${name}-x86_64.AppImage";
+    url = "https://github.com/crypto-com/${pname}/releases/download/v${version}/${name}-x86_64.AppImage";
     sha256 = "14pqzbpcj1f5jwm0kz7fzdm51z4jc4lmypap0xmpr8cfa8dfkh1m";
   };
 

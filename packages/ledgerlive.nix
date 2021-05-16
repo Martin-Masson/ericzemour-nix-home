@@ -2,7 +2,7 @@
 
 let
   pname = "ledger-live-desktop";
-  version = "2.26.0";
+  version = "2.26.1";
   name = "${pname}-${version}";
 
   src = fetchurl {

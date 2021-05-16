@@ -17,10 +17,6 @@
       enable = true;
       userName = "Martin Masson";
       userEmail = "martinmasson03" + "@" + "gmail.com";
-      signing = {
-        key = "";
-        signByDefault = true;
-      };
     };
 
     zsh = {
