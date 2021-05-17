@@ -81,7 +81,6 @@ in {
     gdb
     rustup
     ffmpeg # librosa
-    sfml
 
     # SYSADMIN
     tigervnc
