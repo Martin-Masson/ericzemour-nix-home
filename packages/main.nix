@@ -31,6 +31,7 @@ let
       seaborn
       sklearn-deap
       jinja2
+      sfml
       #pytorch
       cython
       #(callPackage ./pylibs/qgrid.nix { })
