@@ -16,7 +16,7 @@
         display-window:  "Window";
         show-icons:      true;
         sidebar-mode:    true;
-        font: "JetbrainsMono Nerd Font 12";
+        font: "Roboto 11";
       }
 
       * {
